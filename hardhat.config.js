@@ -87,7 +87,15 @@ module.exports = {
       count: 10,
       passphrase: "",
     }
-}
+    },
+    
+    bscmain:{
+      url: "https://bsc-dataseed.binance.org/",
+      chainId: 56,
+      //gasPrice: 20000000000,
+      gasPrice:7000000000,
+      accounts:[process.env.PRIVATE_KEY2,process.env.PRIVATE_KEY3, process.env.PRIVATE_KEY4, process.env.PRIVATE_KEY5] 
+    }
   },
   gasReporter: {
     enabled: process.env.REPORT_GAS !== undefined,
@@ -101,6 +109,15 @@ module.exports = {
       compilers: [
         {
           version: "0.8.6",
+          settings: {
+            optimizer: {
+              enabled: true,
+              runs: 200
+            }
+          }
+        },
+        {
+          version: "0.5.16",
           settings: {
             optimizer: {
               enabled: true,

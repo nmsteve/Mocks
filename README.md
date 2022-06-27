@@ -1,10 +1,26 @@
-# Advanced Sample Hardhat Project
+# Contracts
+1. Maker deployed at: 0x82964e9e7F31966B602Abc7B12e456a87203c26A
+2. Meja deployed at: 0xE765240958a91DF0cF878b8a4ED23D5FF8effFFe
+3. TrueUSD deployed at: 0x6A93366b725Cae9073556f34ac74Ba2cd3aE2C1c
+4. ButPia deployed at: 0xBB4c263309F79f4ec43cF3Bb0351deEc7fe3dF61
+5. LykaLuna deployed at: 0xcDBfB6DEc4BB37A7D989FD36Bf06f42Ab50792Dc
+6. StepN deployed at: 0x28df749CB1878EaF39d40D2acA2677EF4632e7Dc
+7. GoodHuman deployed at: 0x9f35CAB0BDeD2B756Ae7de82A9cc228155fe6430
+8. Kava deployed at: 0x14f341D6109493787c14E4f1a54818a7238bcaca
+9. ApeCoin deployed at: 0x3E53FE7024BcB4cA83c79b68929Aac375d7f4B48
+10. Golem deployed at: 0xc6E9e235087B434089c6Af46251A368c803B1b42
+11. Dai deployed at: 0x86F5Dd995c51cf902a67B723c09c25c03B191e89
+12. Shiba deployed at: 0xc6B1C66A482e5D4B0eBd22f32B01500898D2D23A
+13. sedLeo deployed at: 0x12EE4CB9C76d933738b85DB00052C3b85C40DEBb
+14. FTX deployed at: 0xca6327C2E592aF8Bf29ee2A4132637E29ccFdfA8
+15. ChainLink deployed at: 0x5aDA2836d1aCc727a5d94883607009A2Ae8e3552
+16. Cronos deployed at: 0x7E0289D45641e4826E86f4387D58533715CA9bd5
+17. sandBox deployed at: 0xDE9FD15d56D096Ee61773E3951217422051F3b22
+18. finity deployed at: 0xF82f9E223DfEbF3857832f7b71596164F5a79483
+19. KuCoin deployed at: 0xE97aca232F264148B550B0DC7244F7f660101536
+20. PaxCoin deployed at: 0x8984BD8b44f8E44c226b2Ac7f6D9FFE6c63862e7
 
-This project demonstrates an advanced Hardhat use case, integrating other tools commonly used alongside Hardhat in the ecosystem.
 
-The project comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts. It also comes with a variety of other tools, preconfigured to work with the project code.
-
-Try running some of the following tasks:
 
 ```shell
 npx hardhat accounts
